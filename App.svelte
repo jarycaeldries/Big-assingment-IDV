@@ -42,12 +42,12 @@
 
   function dotcolor(dotvaria, pointcolor) {
     console.log(dotvaria);
-    if ((dotvaria = "Gemeenschappelijk")) {
+    if ((dotvaria === "Gemeenschappelijk")) {
       pointcolor = "green";
     } else if ((dotvaria = "Verbreding")) {
-      pointcolor = "orange";
+      pointcolor === "orange";
     } else if ((dotvaria = "Verbreding - aardwetenschappen")) {
-      pointcolor = "yellow";
+      pointcolor === "yellow";
     } else if ((dotvaria = "Verbreding - sociaal-economische")) {
       pointcolor = "red";
     } else if ((dotvaria = "Wis- en natuurkunde")) {
